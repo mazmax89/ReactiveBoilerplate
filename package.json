@@ -10,8 +10,8 @@
   "license": "MIT",
   "scripts": {
     "start": "set NODE_ENV=development&& webpack -p --progress --profile --colors && nodemon --exec babel-node -- server/server.js",
-    "build": " set NODE_ENV=production&& webpack --progress --colors",
-    "server": "webpack server/server.js&& node build/server.js"
+    "build": " set NODE_ENV=production&& webpack --progress --colors&& babel --presets es2015 server/server.js -o build/server.bundle.js",
+    "server": "node build/server.bundle.js"
   },
   "dependencies": {
     "autoprefixer": "^7.1.2",
