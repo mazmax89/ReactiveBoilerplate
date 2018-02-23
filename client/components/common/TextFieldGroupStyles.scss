@@ -1,0 +1,24 @@
+.textField {
+  padding: 5px;
+  .formControl {
+
+    &:hover {
+      border-color: #2da94a;
+    }
+    &:focus {
+      border-color: #2da94a;
+    }
+  }
+
+  .warningInput {
+    border-color: red;
+  }
+
+  .warning {
+    width: 100%;
+    height: 30px;
+    float: left;
+    color: red;
+  }
+}
+

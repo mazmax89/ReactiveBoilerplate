@@ -1,0 +1,13 @@
+
+.FlashMessageContainer {
+  width: 100%;
+  text-align: center;
+
+  .closeFlashMessage {
+    cursor: pointer;
+    margin-left: 10px;
+    &:hover {
+      color: #2da94a;
+    }
+  }
+}

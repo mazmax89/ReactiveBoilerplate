@@ -1,0 +1,16 @@
+body {
+  overflow-x:hidden;
+}
+
+.switch-wrapper {
+  padding: 20px 2px;
+
+  position: relative;
+  height: 87%;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+  width: 100%;
+}
+
