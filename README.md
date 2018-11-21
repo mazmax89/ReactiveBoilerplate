@@ -1,5 +1,6 @@
-# ProjectM
+# ReactiveBoilerplate
 
+Boilerplate based on React Stack
 This is project using the following technologies:
 - [React](https://facebook.github.io/react/), [React Router](https://reacttraining.com/react-router/) and Redux for the frontend
 - [Express](http://expressjs.com/) and Mysql for the backend
